@@ -1,7 +1,7 @@
 export const SocialLinks = () => {
   return (
     <section className="border-b-zinc-900 border-l-zinc-900 border-r-zinc-900 border-t-zinc-300 box-border caret-transparent outline-[3px] px-[7%] py-7 border-t">
-      <h3 className="font-semibold box-border caret-transparent leading-[17.6px] outline-[3px] mb-3.5 font-manrope">
+    {/*   <h3 className="font-semibold box-border caret-transparent leading-[17.6px] outline-[3px] mb-3.5 font-manrope">
         {"Follow Solas"}
       </h3>
       <div
@@ -92,7 +92,7 @@ export const SocialLinks = () => {
             className="box-border caret-transparent shrink-0 h-[22px] outline-[3px] align-baseline w-[22px]"
           />
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
