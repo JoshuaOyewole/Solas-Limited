@@ -1,5 +1,5 @@
 import { NewsCard } from "@/sections/NewsSection/components/NewsCard";
-
+import gen from "../../assets/3.jpg";
 export const NewsSection = () => {
   return (
     <section className="box-border caret-transparent outline-[3px] w-[min(1280px,90%)] m-auto pt-8 pb-[65px] md:pb-[100px]">
@@ -34,7 +34,7 @@ export const NewsSection = () => {
         />
         <NewsCard
           href="/post/Solas-delivers-850kva-fg-wilson-generator-to-support-blue-world-cosmetics-manufacturing-growth-37bfbd1a-53eb-4319-95b0-b2ec571038ad"
-          imageUrl="https://c.animaapp.com/zhZYMQEM9WJC6HXuIvQxug/assets/0e882d01-4554-44f5-9841-e21590a95833.webp"
+          imageUrl={gen}
           imageAlt="Solas Supplies 850kVA FG Wilson Generator to Boost Blue World Cosmetics’ Production"
           categoryDate="power · 2026-10-20"
           title="Solas Supplies 850kVA FG Wilson Generator to Boost Blue World Cosmetics’ Production"
